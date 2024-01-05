@@ -59,7 +59,7 @@ requestRegex = "#[rR][eE][qQ][uU][eE][sS][tT] "
 async def startHandler(bot:Update, msg:Message):
     botInfo = await bot.get_me()
     await msg.reply_text(
-        "<b>ʜɪ, ɪ ᴀᴍ ʀᴇQᴜᴇꜱᴛ ᴛʀᴀᴄᴋᴇʀ ʙᴏᴛ 🤖.\nɪꜰ ʏᴏᴜ ʜᴀᴅɴ'ᴛ ᴀᴅᴅᴇᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ➕ ᴀᴅᴅ ᴍᴇ ɴᴏᴡ.\n\nʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ?</b>\n\t1. 𝐴𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑦𝑜𝑢𝑟 𝐺𝑟𝑜𝑢𝑝 & 𝐶ℎ𝑎𝑛𝑛𝑒𝑙.\n\t2. 𝑀𝑎𝑘𝑒 𝑚𝑒 𝑎𝑑𝑚𝑖𝑛 𝑖𝑛 𝑏𝑜𝑡ℎ 𝑐ℎ𝑎𝑛𝑛𝑒𝑙 𝑎𝑛𝑑 𝑔𝑟𝑜𝑢𝑝.\n\t3. 𝐺𝑖𝑣𝑒 𝑝𝑒𝑟𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑡𝑜 𝑃𝑜𝑠𝑡 , 𝐸𝑑𝑖𝑡 & 𝐷𝑒𝑙𝑒𝑡𝑒 𝑀𝑒𝑠𝑠𝑎𝑔𝑒𝑠.\n\t4. 𝑁𝑜𝑤 𝑠𝑒𝑛𝑑 𝐺𝑟𝑜𝑢𝑝 𝐼𝐷 & 𝐶ℎ𝑎𝑛𝑛𝑒𝑙 𝐼𝐷 𝑖𝑛 𝑡ℎ𝑖𝑠 𝑓𝑜𝑟𝑚𝑎𝑡 <code>/add GroupID ChannelID</code>.\n𝐍𝐨𝐰 𝐁𝐨𝐭 𝐢𝐬 𝐫𝐞𝐚𝐝𝐲 𝐭𝐨 𝐛𝐞 𝐮𝐬𝐞𝐝.\n\n<b>😊 ᴊᴏɪɴ @Yugen_Bots ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ᴍᴏʀᴇ ᴀᴡᴇꜱᴏᴍᴇ 🤖 ʙᴏᴛꜱ ʟɪᴋᴇ ᴛʜɪꜱ.</b>",
+        "<b>ʜɪ, ɪ ᴀᴍ ʀᴇQᴜᴇꜱᴛ ᴛʀᴀᴄᴋᴇʀ ʙᴏᴛ 🤖.\nɪꜰ ʏᴏᴜ ʜᴀᴅɴ'ᴛ ᴀᴅᴅᴇᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ➕ ᴀᴅᴅ ᴍᴇ ɴᴏᴡ.\n\nʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ?</b>\n\t1. 𝐴𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑦𝑜𝑢𝑟 𝐺𝑟𝑜𝑢𝑝 & 𝐶ℎ𝑎𝑛𝑛𝑒𝑙.\n\t2. 𝑀𝑎𝑘𝑒 𝑚𝑒 𝑎𝑑𝑚𝑖𝑛 𝑖𝑛 𝑏𝑜𝑡ℎ 𝑐ℎ𝑎𝑛𝑛𝑒𝑙 𝑎𝑛𝑑 𝑔𝑟𝑜𝑢𝑝.\n\t3. 𝐺𝑖𝑣𝑒 𝑝𝑒𝑟𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑡𝑜 𝑃𝑜𝑠𝑡 , 𝐸𝑑𝑖𝑡 & 𝐷𝑒𝑙𝑒𝑡𝑒 𝑀𝑒𝑠𝑠𝑎𝑔𝑒𝑠.\n\t4. 𝑁𝑜𝑤 𝑠𝑒𝑛𝑑 𝐺𝑟𝑜𝑢𝑝 𝐼𝐷 & 𝐶ℎ𝑎𝑛𝑛𝑒𝑙 𝐼𝐷 𝑖𝑛 𝑡ℎ𝑖𝑠 𝑓𝑜𝑟𝑚𝑎𝑡 <code>/add GroupID ChannelID</code>.\n𝐍𝐨𝐰 𝐁𝐨𝐭 𝐢𝐬 𝐫𝐞𝐚𝐝𝐲 𝐭𝐨 𝐛𝐞 𝐮𝐬𝐞𝐝.\n\n<b>😊 ᴊᴏɪɴ @Hentaii_flix ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ᴍᴏʀᴇ ᴀᴡᴇꜱᴏᴍᴇ 🤖 ʙᴏᴛꜱ ʟɪᴋᴇ ᴛʜɪꜱ.</b>",
         parse_mode = "html",
         reply_markup = InlineKeyboardMarkup(
             [
@@ -89,7 +89,7 @@ async def chatHandler(bot:Update, msg:Message):
 async def forwardedHandler(bot:Update, msg:Message):
     if msg.forward_from_chat.type == "channel":   # If message forwarded from channel
         await msg.reply_text(
-            f"<b>Hey😁, Your Channel ID is <code>{forwardInfo.id}</code>\n\n😊Join @Rokubotz for getting more awesome 🤖bots like this.</b>",
+            f"<b>Hey😁, Your Channel ID is <code>{forwardInfo.id}</code>\n\n😊Join @Hentaii_flix for getting more awesome 🤖bots like this.</b>",
             parse_mode = "html"
         )
     return
@@ -136,18 +136,18 @@ async def groupChannelIDHandler(bot:Update, msg:Message):
                     botSelfGroup = await bot.get_chat_member(int(groupID), 'me')
                 except (PeerIdInvalid, ValueError):   # If given group id is invalid
                     await msg.reply_text(
-                        "<b>😒Group ID is wrong.\n\n😊Join @Yugen_Bots for getting more awesome 🤖 bots like this.</b>",
+                        "<b>😒Group ID is wrong.\n\n😊Join @Hentaii_flix for getting more awesome 🤖 bots like this.</b>",
                         parse_mode = "html"
                     )
                 except UserNotParticipant:  # If bot is not in group
                     await msg.reply_text(
-                        "<b>😁Add me in group and make me admin, then use /add.\n\n😊Join @Yugen_Bots for getting more awesome 🤖 bots like this.</b>",
+                        "<b>😁Add me in group and make me admin, then use /add.\n\n😊Join @Hentaii_flix for getting more awesome 🤖 bots like this.</b>",
                         parse_mode = "html"
                     )
                 else:
                     if botSelfGroup.status != "administrator":  # If bot is not admin in group
                         await msg.reply_text(
-                            "<b>🥲Make me admin in Group, Then add use /add.\n\n😊Join @Yugen_Bots for getting more awesome 🤖 bots like this.</b>",
+                            "<b>🥲Make me admin in Group, Then add use /add.\n\n😊Join @Hentaii_flix for getting more awesome 🤖 bots like this.</b>",
                             parse_mode = "html"
                         )
                     else:   # If bot is admin in group
@@ -160,7 +160,7 @@ async def groupChannelIDHandler(bot:Update, msg:Message):
                             )
                         except (ChatIdInvalid, ChannelInvalid): # If given channel id is invalid
                             await msg.reply_text(
-                                "<b>😒Channel ID is wrong.\n\n😊Join @Yugen_Bots for getting more awesome 🤖 bots like this.</b>",
+                                "<b>😒Channel ID is wrong.\n\n😊Join @Hentaii_flix for getting more awesome 🤖 bots like this.</b>",
                                 parse_mode = "html"
                             )
                         else:
@@ -176,12 +176,12 @@ async def groupChannelIDHandler(bot:Update, msg:Message):
                                     }
                                 )
                                 await msg.reply_text(
-                                    "<b>Your Group and Channel has now been added SuccessFully🥳.\n\n😊Join @Yugen_Bots for getting more awesome 🤖 bots like this.</b>",
+                                    "<b>Your Group and Channel has now been added SuccessFully🥳.\n\n😊Join @Hentaii_flix for getting more awesome 🤖 bots like this.</b>",
                                     parse_mode = "html"
                                 )
     else:   # If command is invalid
         await msg.reply_text(
-            "<b>Invalid Format😒\nSend Group ID & Channel ID in this format <code>/add GroupID ChannelID</code>.\n\n😊Join @Yugen_Bots for getting more awesome 🤖 bots like this.</b>",
+            "<b>Invalid Format😒\nSend Group ID & Channel ID in this format <code>/add GroupID ChannelID</code>.\n\n😊Join @Hentaii_flix for getting more awesome 🤖 bots like this.</b>",
             parse_mode = "html"
         )
     return
@@ -221,7 +221,7 @@ async def channelgroupRemover(bot:Update, msg:Message):
                     break
             else:   # If group id not found in database
                 await msg.reply_text(
-                    "<b>Given Group ID is not found in our Database🤔.\n\n😊Join @Yugen_Bots for getting more awesome 🤖 bots like this.</b>",
+                    "<b>Given Group ID is not found in our Database🤔.\n\n😊Join @Hentaii_flix for getting more awesome 🤖 bots like this.</b>",
                     parse_mode = "html"
                 )
     else:   # If command is invalid
